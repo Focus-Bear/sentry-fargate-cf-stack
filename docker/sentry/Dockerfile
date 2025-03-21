@@ -1,4 +1,4 @@
-FROM getsentry/sentry:21.10.0
+FROM getsentry/sentry:nightly
 
 RUN  apt-get update && \
         apt-get install -y build-essential lcov valgrind libldap2-dev libsasl2-dev && \
